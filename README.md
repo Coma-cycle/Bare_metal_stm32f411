@@ -34,5 +34,6 @@ dfu-util -a 0 -d 0483:df11 -s 0x08000000:leave -D BM0.bin
 
 the BM0 contains the script,(temp: add the datasheet info used, postponed) of making the GPIOC13 blink:
 
-<img width="400" height="711" alt="blink" src="https://github.com/user-attachments/assets/3d32bc08-ffa2-486b-b3c7-55f4c07f72f8" />
+<img width="400" height="711" alt="blink" src="https://github.com/user-attachments/assets/e8735b32-cb17-4d49-b387-46c68d9dd94f" />
+
 
