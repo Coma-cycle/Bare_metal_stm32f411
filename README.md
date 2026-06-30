@@ -1,4 +1,4 @@
-#Bare_metal_stm32F411CEUX
+#Bare_metal_stm32F411CEUX (in progress)
 
 Hi. I am trying to share my journey of learning stm32F411CEUX,while configing and programming it baremtal.
 
