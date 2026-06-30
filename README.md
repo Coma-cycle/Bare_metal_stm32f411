@@ -1,6 +1,6 @@
-#Bare_metal_stm32F411CUX
+#Bare_metal_stm32F411CEUX
 
-Hi. I am trying to share my journey of learning stm32F411CUX, config and program it baremtal.
+Hi. I am trying to share my journey of learning stm32F411CEUX, config and program it baremtal.
 
 To compile the main.c file and genrate .elf file u can use the compiler below(u will need startup.s and liker_script.ld, and main.c files):
 
