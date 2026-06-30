@@ -7,7 +7,6 @@ To compile the main.c file and genrate .elf file u can use the compiler below(u 
 ```
 arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T STM32F411CEUX_FLASH.ld s>
 
-
 ```
 
 or u can compile it using *stm32cubeide. :)
@@ -23,6 +22,7 @@ put stm32F411 in DFU moe(BOOTO + NRST), u can check this via :
 
 ```
 dfu-util -l
+
 ```
 
 flash the program and run the script:
@@ -31,3 +31,6 @@ flash the program and run the script:
 dfu-util -a 0 -d 0483:df11 -s 0x08000000:leave -D BM0.bin
 
 ```
+
+the BM0 contains the script,(temp: add the datasheet info used, postponed) of making the GPIOC13 blink:
+
