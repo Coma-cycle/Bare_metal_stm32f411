@@ -11,7 +11,7 @@ arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T 
 
 or u can compile it using *stm32cubeide. :)
 
-convert .elf to raw .bin binary:
+convert .elf to raw binary .bin:
 
 ```
 arm-none-eabi-objcopy -O binary output.elf output.bin
