@@ -34,3 +34,4 @@ dfu-util -a 0 -d 0483:df11 -s 0x08000000:leave -D BM0.bin
 
 the BM0 contains the script,(temp: add the datasheet info used, postponed) of making the GPIOC13 blink:
 
+<video src="video/blinkC13.mp4" width="100%" autoplay loop muted></video>
