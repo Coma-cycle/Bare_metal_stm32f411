@@ -1,8 +1,8 @@
 #Bare_metal_stm32F411CEUX   (in progress)
 
-Hi. I am trying to share my journey of learning stm32F411CEUX,while configing and programming it baremtal.
+Hi. I am trying to share my journey of learning stm32F411CEUX,while Configuring and programming it baremtal.
 
-To compile the main.c file and genrate .elf file u can use the compiler below(u will need startup.s and liker_script.ld, and main.c files):
+To compile the main.c file and generate .elf file u can use the compiler below(u will need startup.s and linker_script.ld, and main.c files):
 
 ```
 arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T STM32F411CEUX_FLASH.ld s>
