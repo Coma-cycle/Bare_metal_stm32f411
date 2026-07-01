@@ -5,7 +5,8 @@ Hi. I am trying to share my journey of learning stm32F411CEUX,while Configuring 
 To compile the main.c file and generate .elf file u can use the compiler below(u will need startup.s and linker_script.ld, and main.c files):
 
 ```
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T STM32F411CEUX_FLASH.ld s>
+ arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T stm32f411ceux_FLASH.ld main.c startup_stm32f411xe.s -o output.elf
+
 
 ```
 
