@@ -38,6 +38,8 @@ the BM0.bin contains the script that will make GPIOC13 blink:
 
 <img width="480" height="270" alt="blinkC13" src="https://github.com/user-attachments/assets/44c17157-0e6b-4c1e-ae08-45a34f26e019" />
 
+In directory SPI , the first file is SPI_0.elf , which can be run on the black pill to check if the spi (serial peripheral interface) works, for this u need to connect the soldered pin , PA6 (MIMSO) and PA7 (MOSI) via a wire together , if the LED GPIOC13 blink the spi successfully transmitted data .
+
 if you wanna run the .elf file using ST-link V2 : 
 
 ```
