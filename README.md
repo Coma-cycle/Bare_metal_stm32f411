@@ -45,3 +45,7 @@ if you wanna run the .elf file using ST-link V2 :
 ```
 openocd -f interface/stlink.cfg -f target/stm32f4x.cfg -c "program <YOUR_FILE_NAME>.elf verify reset exit"
 ```
+the desired outpt of SPI_0.elf
+
+<img width="640" height="1138" alt="output" src="https://github.com/user-attachments/assets/13ff35c1-40fb-4ef9-963b-9999c3265728" />
+
