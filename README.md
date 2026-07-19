@@ -38,3 +38,8 @@ the BM0.bin contains the script that will make GPIOC13 blink:
 
 <img width="480" height="270" alt="blinkC13" src="https://github.com/user-attachments/assets/44c17157-0e6b-4c1e-ae08-45a34f26e019" />
 
+if you wanna run the .elf file using ST-link V2 : 
+
+```
+openocd -f interface/stlink.cfg -f target/stm32f4x.cfg -c "program <YOUR_FILE_NAME>.elf verify reset exit"
+```
